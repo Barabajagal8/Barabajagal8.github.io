@@ -1,0 +1,70 @@
+* {
+font-family: 'Open Sans', sans-serif;
+}
+html, body {
+	padding:0;
+	margin: 0;
+	background: #b9e8a4;
+	padding-left: 50px;
+}
+#sideBar {
+	height:100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color:#538751;
+	overflow-x: hidden;
+	padding-right: 5px;
+}
+nav > a {
+	display: block;
+
+}
+h4 {
+	font-size: 30px;
+}
+table, th, td {
+	border: 3px solid #5f7a53;
+}
+.parallelImages{
+	display:flex;
+	width: 50%;
+}
+.image {
+	border: 3px solid black;
+	display:table;
+}
+img {
+	display: block;
+}
+
+.imageCaption {
+  display: table-caption;
+  caption-side: bottom;
+  background: pink;
+}
+a[target] {
+	position:bottom;
+	background: #5fce5a;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	
+}
+a:hover {
+  color: #FFFFFF;
+}
+a:visited {
+	color: #1f3d66;
+}
+tr:nth-of-type(even) td{
+	color: #393b66;	
+}
+tr:nth-of-type(odd) td{
+	color: #6467bc;
+}
+.dino {
+	font-size: 1.5em;
+	font-weight: 200;
+}
